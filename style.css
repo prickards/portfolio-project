@@ -1,0 +1,20 @@
+/* fonts and their backups
+.headland-one-regular {
+    font-family: "Headland One", serif;
+    font-weight: 400;
+    font-style: normal;
+  } - will use this one for headers 
+
+  .zen-kaku-gothic-new-regular {
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  } - will use this one for para
+
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  } - will use this one for links
+ */
+    
