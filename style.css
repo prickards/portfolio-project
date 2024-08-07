@@ -18,3 +18,79 @@
   } - will use this one for links
  */
     
+ body {
+    background-color: #030303;
+    margin: 0;
+    padding: 0;
+    border: 0;
+ }
+
+ i {
+    color: white;
+ }
+ 
+ img {
+    height: 2rem; 
+ }
+
+ h1 {
+    font-family: "Headland One", serif;
+    font-weight: 400;
+ }
+
+ a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+ }
+
+ a:hover {
+    text-decoration: underline; 
+ }
+
+ p {
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+ }
+
+ /*This section will be for the Nav bar */ 
+
+ nav {
+    background-color: rgba(125, 122, 122, 0.8);
+    height: 8rem;
+    list-style: none;
+    display: flex;
+    align-items: center;
+ }
+
+ ul {
+    list-style: none;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+ }
+
+ li a {
+    text-decoration: none;
+    color: #FAEFEF;
+ }
+
+ .nav_bar a {
+    margin-right: 3.5rem;
+ }
+
+ #logo {
+    align-self: center;
+ }
+
+ nav img {
+    border-radius: 50%;
+    margin-left: 2rem;
+    height: 5rem;
+ }
+
+
+/*This section will be for the main page style*/
+/*This section will be for the contact/ skills section */
+/*This section will be for the footer */   
