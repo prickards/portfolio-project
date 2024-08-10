@@ -34,13 +34,16 @@
  }
 
  h1 {
-    font-family: "Headland One", serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
+    color: #FAEFEF;
  }
 
  a {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
+    text-decoration: none;
+    color: #FAEFEF;
  }
 
  a:hover {
@@ -50,6 +53,7 @@
  p {
     font-family: "Zen Kaku Gothic New", sans-serif;
     font-weight: 400;
+    color: #FAEFEF;
     font-size: 1rem;
  }
 
@@ -82,15 +86,98 @@
 
  #logo {
     align-self: center;
- }
-
- nav img {
     border-radius: 50%;
     margin-left: 2rem;
-    height: 5rem;
+    height: rem;
+    text-wrap: none;
+    font-family: "Grey Qo", cursive;
+    font-weight: 400;
+    font-size: 3rem;
+    text-align: center;
+    width: 50%
  }
 
+ #logo:hover {
+    text-decoration: none; 
+ }
+  
 
 /*This section will be for the main page style*/
+
+.banner_cont {
+    display: flex;
+    justify-content: center;
+    height: 30rem;
+    padding: 2rem 0; 
+    background-image: url("images/background_pic.jpg");
+    background-size: contain;
+}
+
+.banner {
+    width: 90%;
+    padding: 1rem 0;
+    background-color: rgba(125, 122, 122, 0.6);
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas: "profile info";
+}
+
+.profile_pic {
+    grid-area: profile; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile_pic a {
+    height: 90%;
+}
+
+.profile_pic img {
+    border-radius: 50%;
+    height: 100%;
+    border: solid #7D7A7A 1px;    
+}
+
+.info_sec {
+    grid-area: info;
+    width: 80%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #473737;
+    border-radius: 10px;
+}
+
+.info_sec h1 {
+    text-align: center;
+    justify-self: flex-start;
+    font-weight: 800;
+    margin: 0; 
+    font-size: 3rem;
+
+}
+
+.info_sec p {
+    align-self: center;
+    width: 60%
+}
+
+.info_sec button {
+    width: 40%;
+    align-self: center;
+    margin: 2rem;
+    padding: 15px 0 ; 
+}
+
+.info_sec button:hover {
+    cursor: pointer;
+    background-color: #0D0C0C;
+    color: #FAEFEF; 
+}
+
 /*This section will be for the contact/ skills section */
 /*This section will be for the footer */   
