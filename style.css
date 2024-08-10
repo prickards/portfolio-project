@@ -17,7 +17,9 @@
     font-style: normal;
   } - will use this one for links
  */
-    
+
+ /*General style*/
+
  body {
     background-color: #030303;
     margin: 0;
@@ -26,18 +28,18 @@
  }
 
  i {
-    color: white;
+    color: #FAEFEF;
  }
  
  img {
     height: 2rem; 
  }
 
- h1 {
+ h1, h2, h3 {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     color: #FAEFEF;
- }
+ }  
 
  a {
     font-family: "Poppins", sans-serif;
@@ -57,7 +59,16 @@
     font-size: 1rem;
  }
 
- /*This section will be for the Nav bar */ 
+ ul {
+    list-style: none;
+    list-style: none;
+ }
+
+ span {
+    color:#FAEFEF;
+ }
+
+ /*Nav bar style*/ 
 
  nav {
     background-color: rgba(125, 122, 122, 0.8);
@@ -67,9 +78,7 @@
     align-items: center;
  }
 
- ul {
-    list-style: none;
-    list-style: none;
+ nav ul {
     display: flex;
     justify-content: flex-end;
     width: 100%;
@@ -102,7 +111,7 @@
  }
   
 
-/*This section will be for the main page style*/
+/*Main page/ banner style*/
 
 .banner_cont {
     display: flex;
@@ -179,5 +188,99 @@
     color: #FAEFEF; 
 }
 
-/*This section will be for the contact/ skills section */
-/*This section will be for the footer */   
+/*This section will be for the hidden section*/
+
+.projects_cont {
+    display: none;
+} 
+/*Skills section style*/
+
+.skills_cont {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.skills {
+    width: 90%;
+    background-color: #473737;
+    margin: 1rem 0; 
+    border-radius: 1rem;
+}
+
+.skills h2 { 
+    text-align: center;
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 0; 
+    padding-top: 1.5rem;
+}
+
+.skills_list {
+    display: flex;
+    justify-content: center;
+}
+
+.skills i {
+    font-size: 4rem;
+    padding: 0 1rem 1rem 1rem; 
+    text-align: center;
+}
+
+/*Contact section style*/
+
+.contact_sec {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.contact {
+    width: 90%;
+    background-color: #473737;
+    margin: 1rem 0; 
+    border-radius: 1rem;
+}
+
+.contact h2 { 
+    text-align: center;
+    font-weight: 500;
+    font-size: 2.25rem;
+    margin: 0; 
+    padding-top: 1.5rem;
+}
+
+.contact_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_list li {
+    padding: 1rem; 
+    margin: 0 3rem;
+}
+
+.contact_list i {
+    font-size: 4rem;
+}
+
+.contact_list i:hover {
+    color:#030303;
+}
+
+/*Footer style*/   
+
+footer {
+    background-color: #7D7A7A;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer span {
+    font-style: italic;
+    text-align: center;
+}
+/*This section will be for the media queries to make site responsive*/
